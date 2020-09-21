@@ -1,0 +1,6 @@
+{
+    "env": {
+        "MONGODB_USER": "graphql",
+        "MONGODB_PASSWORD": "icemoodcarter26"
+    }
+}

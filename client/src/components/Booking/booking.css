@@ -1,0 +1,35 @@
+.booking-list {
+  list-style: none;
+  width: 40rem;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.booking-items {
+  margin: 0.5rem;
+  border: 1px solid rgb(8, 18, 172);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.booking-item-title {
+  margin: 0 1rem;
+}
+
+.btn-change {
+  text-align: center;
+  padding: 0 1rem;
+}
+.btn-change button {
+  padding: 0.25rem 3rem;
+  border: none;
+  color: #000;
+  background: transparent;
+  border-bottom: 2px solid transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-change button.active {
+  border-bottom-color: rgb(8, 18, 172);
+  color: rgb(8, 18, 172);
+}
